@@ -69,7 +69,7 @@ nav {
     padding: 25px;
 }
 
-button {
+button, .cta-button {
     background-color: #3882F6;
     border-radius: 5px;
     -webkit-border-radius: 5px;
@@ -98,8 +98,8 @@ button {
 
 .blocks {
     display: flex;
-    justify-content: center;
     align-items: center;
+    justify-content: space-around;
 }
 
 .main-2 {
@@ -124,5 +124,27 @@ button {
     margin-top: -195px;
     text-align: right;
 }
+
+
+.main-3 {
+    border: 2px solid red;
+    padding: 20px;
+}
+
+
+.main-3-container {
+    border: 2px solid red;
+    width: 75%;
+    margin: 50px auto;
+    background-color: #3882F6;
+    display: flex;
+}
+
+
+
+.cta-button {
+    border: solid white;
+}
+
 
 /*Footer*/
