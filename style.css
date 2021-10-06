@@ -77,17 +77,52 @@ button {
     -ms-border-radius: 5px;
     -o-border-radius: 5px;
     color: #E5E7EB;
-    padding: 5px 15px;
+    padding: 5px 25px;
     font-weight: 600;
 }
 
 /*Main Landing Page*/
 
-.main-1 h2 {
-    text-align: center;
-    margin: auto;
+.main-1 {
+    margin: 25px;
 }
 
+.main-1 h2 {
+    text-align: center;
+    margin: 50px auto;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937
+    
+}
 
+.blocks {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-2 {
+    background-color: #E5E7EB;
+    width: 100%;
+    
+}
+
+.main-2 p{
+    width: 75%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 90px 65px;
+    font-size: 36px;
+    font-style: italic;
+
+    color: #1F2937;
+}
+
+.main-2 #quote-name {
+    margin-top: -195px;
+    text-align: right;
+}
 
 /*Footer*/
