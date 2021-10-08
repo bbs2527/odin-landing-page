@@ -116,14 +116,10 @@ button, .cta-button {
     padding: 90px 65px;
     font-size: 36px;
     font-style: italic;
-
+    text-align: center;
     color: #1F2937;
 }
 
-.main-2 #quote-name {
-    margin-top: -195px;
-    text-align: right;
-}
 
 
 .main-3 {
